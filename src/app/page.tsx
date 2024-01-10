@@ -1,9 +1,10 @@
-import Page from "./pages/landingPage";
-
+import Footer from "./components/footer";
+import PageUnderConstruction from "./pages/pageUnderConstruction";
 export default function Home() {
   return (
     <div>
-      <Page></Page>
+      <PageUnderConstruction></PageUnderConstruction>
+      <Footer></Footer>
     </div>
   );
 }
