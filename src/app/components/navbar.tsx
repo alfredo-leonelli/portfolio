@@ -27,7 +27,7 @@ export default function NavBar() {
             </IconLink>
           </li>
           <li>
-            <IconLink href="https://drive.google.com/file/d/1VatLqxskipkoVDMZL1fcuqBIA3VN1ix-/view?usp=sharing">
+            <IconLink href="https://drive.google.com/file/d/16BOUjLleBljcS3zj5OFvRzRxPaAZ5_9m/view?usp=sharing">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
