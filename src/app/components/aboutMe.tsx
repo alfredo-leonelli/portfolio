@@ -15,7 +15,7 @@ export default function AboutMe() {
       <div className="text-container">
         <div className="introduction-container">
           <h1 className="about-me-title">
-            <strong>Hola, mundo!</strong>
+            <strong>¡Hola, mundo!</strong>
           </h1>
           <p className="mr-5">
             Soy Alfredo Leonelli, analista programador titulado en 2023
