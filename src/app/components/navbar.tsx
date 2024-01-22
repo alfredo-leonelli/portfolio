@@ -5,7 +5,7 @@ export default function NavBar() {
     <nav className="bg-[#333333] flex h-20 justify-between">
       <a className="block" href="/">
         <img
-          src="alfredo.png"
+          src="/alfredo.png"
           className="h-20 w-20 ml-4 transform transition-transform hover:scale-110"
         ></img>
       </a>
@@ -27,7 +27,7 @@ export default function NavBar() {
             </IconLink>
           </li>
           <li>
-            <IconLink href="/CV Alfredo Leonelli.pdf">
+            <IconLink href="/CVAlfredoLeonelli.pdf">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

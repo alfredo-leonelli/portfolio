@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="about-me-container">
       <div className="about-me-image-container">
-        <img src="alfredoAboutMe.png" alt="About me" />
+        <img src="/alfredoAboutMe.png" alt="About me" />
         <h3 className="about-me-credits">
           Créditos a{" "}
           <a href="https://www.instagram.com/uviboo/" target="_blank">
