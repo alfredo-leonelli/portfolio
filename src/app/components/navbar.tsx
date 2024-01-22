@@ -18,7 +18,7 @@ export default function NavBar() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
                 className="h-7 w-7"
               >
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -27,13 +27,13 @@ export default function NavBar() {
             </IconLink>
           </li>
           <li>
-            <IconLink href="https://drive.google.com/file/d/1VatLqxskipkoVDMZL1fcuqBIA3VN1ix-/view?usp=sharing">
+            <IconLink href="/CV Alfredo Leonelli.pdf">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
                 className="h-7 w-7"
               >
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
