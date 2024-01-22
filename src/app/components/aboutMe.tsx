@@ -1,10 +1,16 @@
+import Image from "next/image";
 import "../styles/aboutMe.css";
 
 export default function AboutMe() {
   return (
     <div className="about-me-container">
       <div className="about-me-image-container">
-        <img src="/alfredoAboutMe.png" alt="About me" />
+        <Image
+          src="/alfredoAboutMe.png"
+          alt="About me IMG"
+          width={3300}
+          height={2550}
+        ></Image>
         <h3 className="about-me-credits">
           Créditos a{" "}
           <a href="https://www.instagram.com/uviboo/" target="_blank">

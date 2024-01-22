@@ -1,13 +1,17 @@
 import IconLink from "./iconLink";
+import Image from "next/image";
 
 export default function NavBar() {
   return (
     <nav className="bg-[#333333] flex h-20 justify-between">
       <a className="block" href="/">
-        <img
+        <Image
           src="/alfredo.png"
           className="h-20 w-20 ml-4 transform transition-transform hover:scale-110"
-        ></img>
+          alt="Alfredo Icon"
+          width={2000}
+          height={2000}
+        ></Image>
       </a>
       <div>
         <ul className="flex">
