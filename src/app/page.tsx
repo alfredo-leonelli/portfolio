@@ -7,7 +7,7 @@ import Divider from "./components/divider";
 export default function Home() {
   return (
     <div>
-      <link rel="icon" href="/alfredo.png" />
+      <link rel="icon" href="/images/alfredo.png" />
       <NavBar></NavBar>
       <Divider text="Sobre mi"></Divider>
       <AboutMe></AboutMe>

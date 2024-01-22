@@ -5,7 +5,7 @@ export default function WorkExperience() {
   return (
     <div className="work-experience-container">
       <WorkItem
-        imageSrc="/logoEsmax.png"
+        imageSrc="/images/logoEsmax.png"
         companyName="Esmax"
         position="Desarrollador Power Apps JR"
         date="Agosto 2023 - Diciembre 2023"
@@ -13,7 +13,7 @@ export default function WorkExperience() {
         additionalInfo="Tecnologías: Dynamics 365, Power Apps, Power Automate, Microsoft Dataverse, JavaScript, Azure DevOps"
       />
       <WorkItem
-        imageSrc="/logoACL.png"
+        imageSrc="/images/logoACL.png"
         companyName="ACL"
         position="Desarrollador Trainee PPJ"
         date="Abril 2023 - Julio 2023"
@@ -21,7 +21,7 @@ export default function WorkExperience() {
         additionalInfo="Tecnologías: MongoDB, Mongoose, Express, React, NodeJS, GitHub, Scrum"
       />
       <WorkItem
-        imageSrc="/logoACL.png"
+        imageSrc="/images/logoACL.png"
         companyName="ACL"
         position="Práctica Profesional PPJ"
         date="Enero 2023 - Marzo 2023"

@@ -6,7 +6,7 @@ export default function AboutMe() {
     <div className="about-me-container">
       <div className="about-me-image-container">
         <Image
-          src="/alfredoAboutMe.png"
+          src="/images/alfredoAboutMe.png"
           alt="About me IMG"
           width={3300}
           height={2550}
