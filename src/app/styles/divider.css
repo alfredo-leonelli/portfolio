@@ -1,0 +1,26 @@
+.divider-container {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.divider {
+  flex-grow: 1;
+  height: 0.25rem;
+  border-top-width: 0px;
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #7d8e29,
+    transparent
+  );
+}
+
+.divider-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
