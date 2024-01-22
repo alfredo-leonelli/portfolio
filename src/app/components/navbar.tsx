@@ -16,7 +16,7 @@ export default function NavBar() {
       <div>
         <ul className="flex">
           <li>
-            <IconLink href="mailto:alfredoleonellim@gmail.com">
+            <IconLink href={process.env.PUBLIC_URL + "/CVAlfredoLeonelli.pdf"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
