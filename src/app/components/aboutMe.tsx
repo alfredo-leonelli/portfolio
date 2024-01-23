@@ -8,6 +8,7 @@ export default function AboutMe() {
         <Image
           src="/images/alfredoAboutMe.png"
           alt="About me IMG"
+          sizes="(max-width: 768px) 70dvw, (max-width: 1200px) 50dvw, 33dvw"
           width={3300}
           height={2550}
         ></Image>
