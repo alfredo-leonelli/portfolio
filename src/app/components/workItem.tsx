@@ -30,7 +30,7 @@ export const WorkItem: React.FC<WorkItemProps> = ({
           height={300}
         />
       </div>
-      <div className="text-container">
+      <div className="work-item-text-container">
         <p className="work-item-company-name">{companyName}</p>
         <div className="work-item-divider"></div>
         <p className="work-item-position">{position}</p>

@@ -1,4 +1,4 @@
-.work-item-container {
+.project-item-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,13 +9,13 @@
   background-color: #333333;
 }
 
-.work-item-image-container {
+.project-item-image-container {
   width: 100%;
-  height: 100%;
+  height: 250px;
   overflow: hidden;
 }
 
-.work-item-image {
+.project-item-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -23,11 +23,11 @@
   border-radius: 15px;
 }
 
-.work-item-text-container {
+.project-item-text-container {
   width: 100%;
 }
 
-.work-item-company-name {
+.project-item-name {
   font-size: 1.5em;
   font-weight: bold;
   text-align: left;
@@ -35,23 +35,7 @@
   margin-bottom: 5px;
 }
 
-.work-item-position {
-  font-size: 1em;
-  text-align: left;
-  color: #7d8e29;
-  margin-top: 3px;
-  margin-bottom: 3px;
-}
-
-.work-item-date {
-  font-size: 1em;
-  text-align: left;
-  color: #7d8e29;
-  margin-top: 3px;
-  margin-bottom: 3px;
-}
-
-.work-item-description {
+.project-item-description {
   text-align: left;
   height: 280px;
   overflow: auto;
@@ -59,15 +43,13 @@
   margin-bottom: 10px;
 }
 
-.work-item-additional-info {
-  display: flex;
-  align-items: center;
+.project-item-stack {
   text-align: left;
-  height: 90px;
-  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.work-item-divider {
+.project-item-divider {
   flex-grow: 1;
   height: 0.125rem;
   background-color: #7d8e29;
