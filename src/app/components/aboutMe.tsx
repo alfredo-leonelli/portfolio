@@ -19,7 +19,7 @@ export default function AboutMe() {
           </a>
         </h3>
       </div>
-      <div className="text-container">
+      <div className="about-me-text-container">
         <div className="introduction-container">
           <h1 className="about-me-title">
             <strong>¡Hola, mundo!</strong>

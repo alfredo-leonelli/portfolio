@@ -29,11 +29,12 @@
   overflow: hidden;
 }
 
-.text-container {
+.about-me-text-container {
   margin-top: 15px;
   margin-bottom: 15px;
   flex-grow: 1;
   padding-left: 30px;
+  width: 100%;
 }
 
 .knowledge-container {
@@ -52,7 +53,7 @@
 }
 
 .about-me-title {
-  font-size: 1.5em; /* Ajusta el tamaño del texto según tus necesidades */
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;

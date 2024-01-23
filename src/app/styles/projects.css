@@ -1,13 +1,14 @@
-.work-experience-container {
+.projects-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
   max-width: 1300px;
   margin-top: 15px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
-.work-experience-container > div {
+.projects-container > div {
   flex: 1 0 300px;
   margin: 10px;
 }
